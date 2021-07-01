@@ -101,6 +101,24 @@ footer {
 ul li {
     list-style-type: disc;
 }
+
+img {
+    max-height: 150px;
+    border-radius: 50%;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+input {
+    display: none;
+}
+
+input[type=radio]:checked + img {
+    border: 5px solid darkgreen;
+}
+
   
   @keyframes pulse {
     20% {
