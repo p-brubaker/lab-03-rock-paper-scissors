@@ -66,6 +66,11 @@ h2 {
     font-weight: bold;
 }
 
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .gutter-right {
     margin-right: 20px;
 }
@@ -91,6 +96,10 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+
+ul li {
+    list-style-type: disc;
 }
   
   @keyframes pulse {
