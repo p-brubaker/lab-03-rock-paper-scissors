@@ -57,14 +57,14 @@ test('didUserWin returns correct outcome', (expect) => {
     const srActual = didUserWin('scissors', 'rock');
     const ssActual = didUserWin('scissors', 'scissors');
 
-    expect.equals(rpExpect, rpActual);
-    expect.equals(rsExpect, rsActual);
-    expect.equals(rrExpect, rrActual);
-    expect.equals(spExpect, spActual);
-    expect.equals(ppExpect, ppActual);
-    expect.equals(psExpect, psActual);
-    expect.equals(srExpect, srActual);
-    expect.equals(prExpect, prActual);
-    expect.equals(ssExpect, ssActual);
+    expect.equal(rpExpect, rpActual);
+    expect.equal(rsExpect, rsActual);
+    expect.equal(rrExpect, rrActual);
+    expect.equal(spExpect, spActual);
+    expect.equal(ppExpect, ppActual);
+    expect.equal(psExpect, psActual);
+    expect.equal(srExpect, srActual);
+    expect.equal(prExpect, prActual);
+    expect.equal(ssExpect, ssActual);
 
 });
