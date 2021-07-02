@@ -15,7 +15,7 @@ test('check randomness of randomthrow function (for fun)', (expect) => {
     const scissorsArray = [];
     const rockArray = [];
     
-    for (let i = 0; i < 33; i++) {
+    for (let i = 0; i < 99; i++) {
         let current = getRandomThrow();
         if (current === 'rock') {
             rockArray.push(current);
@@ -26,9 +26,9 @@ test('check randomness of randomthrow function (for fun)', (expect) => {
         }
     }
 
-    const actualRock = Math.round(rockArray.length / 11);
-    const actualPaper = Math.round(paperArray.length / 11);
-    const actualScissors = Math.round(scissorsArray.length / 11);
+    const actualRock = Math.round(rockArray.length / 33);
+    const actualPaper = Math.round(paperArray.length / 33);
+    const actualScissors = Math.round(scissorsArray.length / 33);
 
     expect.equal(expectedScissors, actualScissors);
     expect.equal(expectedPaper, actualPaper);
