@@ -20,7 +20,6 @@
     </header>
     <main>
         <section class="main-section">
-            <img class="main-logo" src="./assets/alchemy-logo.png" />
             <h1>
                 Let's Play Rock Paper Scissors!
             </h1>
@@ -37,6 +36,7 @@
             </section>
             <section id="game">
                 <div id="player-choices">
+                    <div id="game-images">
                     <label>
                         <input type="radio" name="player-choice" value="rock">
                         <img src="assets/rock.jpg" alt="A rock">
@@ -49,15 +49,18 @@
                         <input type="radio" name="player-choice" value="paper">
                         <img src="assets/scissors.jpg" alt="A pair of scissors">
                     </label>
-                    <button id="play">Click me to play!</button>
+                    </div>
+                    <button id="play">Select rock, paper or scissors and then click me to play!</button>
+                </div>
+                <div id="results">
+                    <p id="throw-result"></p>
+                    <p>Wins: <span id="wins"></span></p>
+                    <p>Losses: <span id="losses"></span></p>
+                    <p>Draws: <span id="draws"></span></p>
+                    <button id="reset">RESET</button>
                 </div>
             </section>
-            <section id="results">
-                <p id="throw-result"></p>
-                <p>Wins: <span id="wins"></span></p>
-                <p>Losses: <span id="losses"></span></p>
-                <p>Draws: <span id="draws"></span></p>
-            </section>
+        </section>  
     </main>
     <footer>
         <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>

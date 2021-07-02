@@ -82,10 +82,6 @@ h1 {
 header img {
     height: var(--header-height);
 }
-
-p {
-    margin: var(--gutter);
-}
   
 footer {
     position: fixed;
@@ -109,6 +105,7 @@ img {
 
 button {
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 input {
@@ -119,6 +116,17 @@ input[type=radio]:checked + img {
     border: 5px solid darkgreen;
 }
 
+#player-choices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
   
   @keyframes pulse {
     20% {
