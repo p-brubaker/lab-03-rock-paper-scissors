@@ -36,6 +36,7 @@ playButton.addEventListener('click', () => {
 });
 
 resetButton.addEventListener('click', () => {
+    
     const playerChoice = document.querySelector('input:checked');
     playerChoice.checked = false;
     wins = 0;
